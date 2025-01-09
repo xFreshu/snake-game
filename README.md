@@ -1,8 +1,47 @@
-# React + Vite
+# Gra Snake
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To jest prosta gra Snake zaimplementowana w JavaScript.
 
-Currently, two official plugins are available:
+## Wymagania
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Przeglądarka internetowa
+- Node.js i npm
+
+## Instalacja
+
+1. Sklonuj repozytorium:
+   ```bash
+   git clone https://github.com/xFreshu/snake-game
+   ```
+2. Przejdź do katalogu projektu:
+   ```bash
+   cd snake-game
+   ```
+3. Zainstaluj zależności:
+   ```bash
+   npm install
+   ```
+
+## Uruchomienie gry
+
+Aby uruchomić grę, użyj polecenia:
+`bash
+    npm run dev
+    `
+
+## Jak grać
+
+- Używaj klawiszy strzałek, aby kontrolować węża.
+- Celem jest zjedzenie jedzenia, które pojawia się na ekranie.
+- Za każdym razem, gdy wąż zje jedzenie, rośnie.
+- Gra kończy się, gdy wąż zderzy się ze sobą lub ze ścianami.
+
+## Licencja
+
+Ten projekt jest licencjonowany na licencji MIT. Zobacz plik [LICENSE](LICENSE) po więcej szczegółów.
+
+## Podziękowania
+
+- Ta gra została opracowana w ramach kursu Uczenie maszynowe w Pythonie.
+
+Miłej zabawy!
